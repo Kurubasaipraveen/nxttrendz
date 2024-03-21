@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.order-summary {
+  padding: 10px;
+  margin: 30px;
+  border-radius: 5px;
+  height: 250px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-end;
+}
+.sum {
+  color: #171f46;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.total {
+  color: #616e7c;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.count {
+  color: #616e7c;
+  font-size: 15px;
+
+  font-family: 'Roboto';
+}
+.check-out {
+  background-color: blueviolet;
+  border-width: 0px;
+  padding: 5px;
+  font-weight: bold;
+  align-self: stretch;
+
+  color: #ffffff;
+  font-size: 20px;
+}
